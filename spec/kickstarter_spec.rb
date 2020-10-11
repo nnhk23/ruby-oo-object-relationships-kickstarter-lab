@@ -52,7 +52,7 @@ describe 'Backer - #back_project' do
     ProjectBacker.class_variable_set(:@@all, [])
     spencer = Backer.new('Spencer')
     magic = Project.new('Magic The Gathering Thing')
-
+  
     # If we are calling this method in this way, what type of argument is it taking?
     # We are actually passing in a Project object! Cool, huh?
     spencer.back_project(magic)
